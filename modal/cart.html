@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ridora</title>
+    <link href="cart.css" rel="stylesheet" />
+
+    <script>
+      //   var modal = document.getdocumentbyid("mymodal");
+      //   var btn = document.getdocumentbyid("myBtn");
+      //   var exit = document.getElementsByClassName("close")[0];
+      //   // When the user clicks the button, open the modal
+      //   btn.onclick = function () {
+      //     modal.style.display = "block";
+      //   };
+
+      //   // When the user clicks on <span> (x), close the modal
+      //   exit.onclick = function () {
+      //     modal.style.display = "none";
+      //   };
+      function myFunction() {
+        document.getElementById("myModal").style.display = "block";
+      }
+      function myClosing() {
+        document.getElementById("myModal").style.display = "none";
+      }
+    </script>
+  </head>
+  <body>
+    <main>
+      <div>
+        <h1>MODAL</h1>
+        <button onclick="myFunction()">Try it</button>
+        <button id="myBtn">Open Modal</button>
+      </div>
+      <div id="myModal" class="modal">
+        <div class="box1">
+          <div class="final">
+            <!-- <button onclick="myClosing()">Try it</button> -->
+            <div class="close" onclick="myClosing()">&#10799;</div>
+          </div>
+
+          <div class="robotics">
+            <div class="bluedesign">
+              <div class="bluedesign1">
+                <img class="robots" src="robotics pics.svg" />
+              </div>
+            </div>
+
+            <h4 class="courseTitle">ROBOTICS</h4>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse arcu morbi et sit eget turpis viverra platea lacus.
+              Habitant interdum cum tempus a massa. Duis orci varius commodo,
+              integer. Vel fermentum posuere magna id integer in. Tempus sem vel
+              pellentesque commodo viverra....
+            </p>
+            <p class="text2">
+              <img src="black box.svg" /><span>list items</span><br />
+              <img src="black box.svg" /><span>list items</span><br />
+              <img src="black box.svg" /><span>list items</span><br />
+              <img src="black box.svg" /><span>list items</span><br />
+              <img src="black box.svg" /><span>list items</span><br />
+              <img src="black box.svg" /><span>list items</span><br />
+            </p>
+            <div class="text3">
+              <p>50,000 NGN</p>
+              <a href="#"><button>Add To Cart</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
