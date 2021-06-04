@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Overpass:wght@300&family=Poppins&family=Roboto:wght@500&family=Source+Sans+Pro:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins";
+  font-style: normal;
+}
+main {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.gallery-banner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 595.37px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("banner.svg");
+}
+.header {
+  margin: auto;
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+}
+
+.header h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 81px;
+  color: #49b6ff;
+  opacity: 9;
+}
+span {
+  color: #ffffff;
+}
+.gallery-banner p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 200%;
+  color: #ffffff;
+}
+.gallery-section2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  height: auto;
+  background-image: url("gallery\ background2.svg");
+}
+.first-text-video {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: 5%;
+}
+.first-text {
+  width: 45%;
+  height: 0;
+  /* height: 20%; */
+}
+.Standard {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+}
+.Standardtext {
+  font-size: 18px;
+  line-height: 200%;
+  color: #000000;
+}
+.video {
+  display: flex;
+  margin-left: 50%;
+  width: 50%;
+}
+.second-text {
+  margin-top: 5%;
+}
+.second-text p {
+  width: 45%;
+  margin-bottom: 5%;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  color: #031e5d;
+}
+.gallery-photos {
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+.gallery-photos-top {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+.gallery-photos-bottom {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+.kids-having-fun-bg {
+  width: 30%;
+  /* height: 90%; */
+  background-repeat: no-repeat;
+  background-size: 88%;
+  height: auto;
+  background-image: url("kidhaving\ fun\ bg.svg");
+}
+.kids-having-fun-bg p {
+  margin-top: 70%;
+  margin-left: 15%;
+  width: 215px;
+  height: 106px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 146%;
+  text-align: center;
+  color: #ffffff;
+}
+.photos-column img {
+  width: 90%;
+  height: 90%;
+}
+@media (max-width: 630px) {
+  .gallery-banner {
+    height: 300px;
+  }
+  .header h4 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .gallery-banner p {
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 200%;
+  }
+  .Standard {
+    margin-left: 5%;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 15px;
+  }
+  .Standardtext {
+    font-size: 13px;
+    line-height: 200%;
+    width: 80%;
+    margin-left: 5%;
+  }
+  .first-text-video {
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 15%;
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+  }
+  .first-text {
+    width: 100%;
+    height: 0;
+  }
+  .video {
+    margin-top: 40%;
+    display: flex;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .second-text p {
+    width: 70%;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .second-text {
+    margin-left: 5%;
+    margin-top: 12%;
+    padding-bottom: 12%;
+  }
+  .gallery-photos-top {
+    display: block;
+    margin-left: 7%;
+  }
+  .gallery-photos-bottom {
+    display: block;
+    margin-left: 7%;
+  }
+  .kids-having-fun-bg {
+    width: 80%;
+    height: 0%;
+    padding-top: 21%;
+    margin-left: 10%;
+  }
+  .kids-having-fun-bg p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 146%;
+    margin-top: 60%;
+    margin-left: 7%;
+    padding-bottom: 15%;
+  }
+  .photos-column img {
+    width: 70%;
+    height: 90%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+}
